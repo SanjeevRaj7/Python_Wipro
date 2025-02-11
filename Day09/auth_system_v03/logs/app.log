@@ -1,0 +1,175 @@
+2025-01-21 15:43:43,991 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-21 15:43:43,992 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-21 15:43:43,996 - INFO -  * Restarting with stat
+2025-01-21 15:43:45,402 - WARNING -  * Debugger is active!
+2025-01-21 15:43:45,410 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 15:44:15,555 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-21 15:44:15,556 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-21 15:44:15,560 - INFO -  * Restarting with stat
+2025-01-21 15:44:16,970 - WARNING -  * Debugger is active!
+2025-01-21 15:44:16,979 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 15:54:19,744 - ERROR - Error: Missing required fields
+2025-01-21 15:54:19,746 - INFO - 127.0.0.1 - - [21/Jan/2025 15:54:19] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-01-21 15:55:16,426 - INFO - package: mysql.connector.plugins
+2025-01-21 15:55:16,427 - INFO - plugin_name: caching_sha2_password
+2025-01-21 15:55:16,427 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-01-21 15:55:16,852 - INFO - Endpoint: /register, Method: POST, Payload: {'username': 'bhima', 'password': 'password123', 'email': 'bhima@bhima.com'}, Status: 201
+2025-01-21 15:55:16,853 - INFO - 127.0.0.1 - - [21/Jan/2025 15:55:16] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-01-21 15:56:53,777 - ERROR - Error: 1062 (23000): Duplicate entry 'bhima' for key 'users.username'
+2025-01-21 15:56:53,780 - INFO - 127.0.0.1 - - [21/Jan/2025 15:56:53] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-01-21 15:59:44,865 - ERROR - Error: name 'check_password_hash' is not defined
+2025-01-21 15:59:44,867 - INFO - 127.0.0.1 - - [21/Jan/2025 15:59:44] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-01-21 16:03:08,912 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\routes\\auth.py', reloading
+2025-01-21 16:03:09,074 - INFO -  * Restarting with stat
+2025-01-21 16:03:10,650 - WARNING -  * Debugger is active!
+2025-01-21 16:03:10,658 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:03:15,107 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\routes\\auth.py', reloading
+2025-01-21 16:03:15,550 - INFO -  * Restarting with stat
+2025-01-21 16:03:16,926 - WARNING -  * Debugger is active!
+2025-01-21 16:03:16,934 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:03:29,713 - INFO - package: mysql.connector.plugins
+2025-01-21 16:03:29,713 - INFO - plugin_name: caching_sha2_password
+2025-01-21 16:03:29,714 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-01-21 16:03:30,186 - ERROR - Error: name 'datetime' is not defined
+2025-01-21 16:03:30,188 - INFO - 127.0.0.1 - - [21/Jan/2025 16:03:30] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-01-21 16:04:49,020 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\routes\\auth.py', reloading
+2025-01-21 16:04:49,190 - INFO -  * Restarting with stat
+2025-01-21 16:04:50,432 - WARNING -  * Debugger is active!
+2025-01-21 16:04:50,439 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:05:03,368 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\routes\\auth.py', reloading
+2025-01-21 16:05:03,527 - INFO -  * Restarting with stat
+2025-01-21 16:05:04,549 - WARNING -  * Debugger is active!
+2025-01-21 16:05:04,553 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:05:09,572 - INFO - package: mysql.connector.plugins
+2025-01-21 16:05:09,573 - INFO - plugin_name: caching_sha2_password
+2025-01-21 16:05:09,573 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-01-21 16:05:10,162 - INFO - Endpoint: /login, Method: POST, Payload: {'username': 'bhima', 'password': 'password123'}, Status: 200
+2025-01-21 16:05:10,164 - INFO - 127.0.0.1 - - [21/Jan/2025 16:05:10] "POST /auth/login HTTP/1.1" 200 -
+2025-01-21 16:20:22,326 - INFO - 127.0.0.1 - - [21/Jan/2025 16:20:22] "[33mPOST /auth/proteced HTTP/1.1[0m" 404 -
+2025-01-21 16:20:42,682 - INFO - 127.0.0.1 - - [21/Jan/2025 16:20:42] "[33mPOST /auth/protected HTTP/1.1[0m" 404 -
+2025-01-21 16:22:28,186 - INFO - Endpoint: /validate, Method: POST, Payload: {'username': 'bhima', 'password': 'password123'}, Status: 401
+2025-01-21 16:22:28,186 - ERROR - Error: Invalid or expired token
+2025-01-21 16:22:28,187 - INFO - 127.0.0.1 - - [21/Jan/2025 16:22:28] "[35m[1mPOST /auth/validate HTTP/1.1[0m" 500 -
+2025-01-21 16:25:57,028 - INFO - 127.0.0.1 - - [21/Jan/2025 16:25:57] "[31m[1mGET /auth/validate HTTP/1.1[0m" 405 -
+2025-01-21 16:26:24,917 - INFO - Endpoint: /validate, Method: POST, Payload: {'username': 'bhima', 'password': 'password123'}, Status: 401
+2025-01-21 16:26:24,917 - ERROR - Error: Invalid or expired token
+2025-01-21 16:26:24,918 - INFO - 127.0.0.1 - - [21/Jan/2025 16:26:24] "[35m[1mPOST /auth/validate HTTP/1.1[0m" 500 -
+2025-01-21 16:27:04,195 - INFO - Endpoint: /login, Method: POST, Payload: {'username': 'bhima', 'password': 'password123'}, Status: 200
+2025-01-21 16:27:04,196 - INFO - 127.0.0.1 - - [21/Jan/2025 16:27:04] "POST /auth/login HTTP/1.1" 200 -
+2025-01-21 16:27:45,328 - INFO - Endpoint: /validate, Method: POST, Payload: {'username': 'bhima', 'password': 'password123'}, Status: 401
+2025-01-21 16:27:45,328 - ERROR - Error: Invalid or expired token
+2025-01-21 16:27:45,329 - INFO - 127.0.0.1 - - [21/Jan/2025 16:27:45] "[35m[1mPOST /auth/validate HTTP/1.1[0m" 500 -
+2025-01-21 16:30:37,423 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\routes\\auth.py', reloading
+2025-01-21 16:30:37,532 - INFO -  * Restarting with stat
+2025-01-21 16:30:38,935 - WARNING -  * Debugger is active!
+2025-01-21 16:30:38,943 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:31:37,258 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-21 16:31:37,259 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-21 16:31:37,263 - INFO -  * Restarting with stat
+2025-01-21 16:31:38,640 - WARNING -  * Debugger is active!
+2025-01-21 16:31:38,648 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:32:18,053 - INFO - package: mysql.connector.plugins
+2025-01-21 16:32:18,053 - INFO - plugin_name: caching_sha2_password
+2025-01-21 16:32:18,053 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-01-21 16:32:18,703 - INFO - Endpoint: /login, Method: POST, Payload: {'username': 'bhima', 'password': 'password123'}, Status: 200
+2025-01-21 16:32:18,705 - INFO - 127.0.0.1 - - [21/Jan/2025 16:32:18] "POST /auth/login HTTP/1.1" 200 -
+2025-01-21 16:32:46,092 - INFO - 127.0.0.1 - - [21/Jan/2025 16:32:46] "[35m[1mGET /auth/validate HTTP/1.1[0m" 500 -
+2025-01-21 16:33:50,035 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\routes\\auth.py', reloading
+2025-01-21 16:33:50,761 - INFO -  * Restarting with stat
+2025-01-21 16:33:51,825 - WARNING -  * Debugger is active!
+2025-01-21 16:33:51,830 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:35:41,437 - ERROR - Error: log_request() missing 3 required positional arguments: 'method', 'payload', and 'status'
+2025-01-21 16:35:41,439 - INFO - 127.0.0.1 - - [21/Jan/2025 16:35:41] "[35m[1mGET /auth/validate HTTP/1.1[0m" 500 -
+2025-01-21 16:43:50,213 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\routes\\auth.py', reloading
+2025-01-21 16:43:50,420 - INFO -  * Restarting with stat
+2025-01-21 16:43:51,880 - WARNING -  * Debugger is active!
+2025-01-21 16:43:51,888 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:43:55,704 - INFO - Endpoint: /validate, Method: GET, Payload: <Request 'http://127.0.0.1:5000/auth/validate' [GET]>, Status: 401
+2025-01-21 16:43:55,705 - ERROR - Error: name 'SECRET_KEY' is not defined
+2025-01-21 16:43:55,706 - INFO - 127.0.0.1 - - [21/Jan/2025 16:43:55] "[35m[1mGET /auth/validate HTTP/1.1[0m" 500 -
+2025-01-21 16:45:34,672 - INFO - Endpoint: /validate, Method: GET, Payload: <Request 'http://127.0.0.1:5000/auth/validate' [GET]>, Status: 401
+2025-01-21 16:45:34,673 - ERROR - Error: name 'SECRET_KEY' is not defined
+2025-01-21 16:45:34,673 - INFO - 127.0.0.1 - - [21/Jan/2025 16:45:34] "[35m[1mGET /auth/validate HTTP/1.1[0m" 500 -
+2025-01-21 16:48:34,432 - INFO - 127.0.0.1 - - [21/Jan/2025 16:48:34] "[31m[1mGET /auth/login HTTP/1.1[0m" 405 -
+2025-01-21 16:48:40,511 - INFO - package: mysql.connector.plugins
+2025-01-21 16:48:40,511 - INFO - plugin_name: caching_sha2_password
+2025-01-21 16:48:40,512 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-01-21 16:48:41,086 - INFO - Endpoint: /login, Method: POST, Payload: {'username': 'bhima', 'password': 'password123'}, Status: 200
+2025-01-21 16:48:41,087 - INFO - 127.0.0.1 - - [21/Jan/2025 16:48:41] "POST /auth/login HTTP/1.1" 200 -
+2025-01-21 16:49:15,750 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\config\\settings.py', reloading
+2025-01-21 16:49:15,886 - INFO -  * Restarting with stat
+2025-01-21 16:49:17,091 - WARNING -  * Debugger is active!
+2025-01-21 16:49:17,101 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:49:19,354 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\config\\settings.py', reloading
+2025-01-21 16:49:19,523 - INFO -  * Restarting with stat
+2025-01-21 16:49:21,234 - WARNING -  * Debugger is active!
+2025-01-21 16:49:21,241 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:49:22,454 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\config\\settings.py', reloading
+2025-01-21 16:49:22,641 - INFO -  * Restarting with stat
+2025-01-21 16:49:24,075 - WARNING -  * Debugger is active!
+2025-01-21 16:49:24,083 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:49:52,699 - INFO - Endpoint: /validate, Method: GET, Payload: <Request 'http://127.0.0.1:5000/auth/validate' [GET]>, Status: 401
+2025-01-21 16:49:52,699 - ERROR - Error: name 'SECRET_KEY' is not defined
+2025-01-21 16:49:52,701 - INFO - 127.0.0.1 - - [21/Jan/2025 16:49:52] "[35m[1mGET /auth/validate HTTP/1.1[0m" 500 -
+2025-01-21 16:52:34,053 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\config\\settings.py', reloading
+2025-01-21 16:52:34,314 - INFO -  * Restarting with stat
+2025-01-21 16:52:35,650 - WARNING -  * Debugger is active!
+2025-01-21 16:52:35,655 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:52:45,327 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\config\\settings.py', reloading
+2025-01-21 16:52:45,455 - INFO -  * Restarting with stat
+2025-01-21 16:52:47,067 - WARNING -  * Debugger is active!
+2025-01-21 16:52:47,080 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:53:01,049 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-21 16:53:01,050 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-21 16:53:01,055 - INFO -  * Restarting with stat
+2025-01-21 16:53:02,486 - WARNING -  * Debugger is active!
+2025-01-21 16:53:02,498 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:53:21,041 - INFO - package: mysql.connector.plugins
+2025-01-21 16:53:21,041 - INFO - plugin_name: caching_sha2_password
+2025-01-21 16:53:21,042 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-01-21 16:53:21,547 - INFO - Endpoint: /login, Method: POST, Payload: {'username': 'bhima', 'password': 'password123'}, Status: 200
+2025-01-21 16:53:21,548 - INFO - 127.0.0.1 - - [21/Jan/2025 16:53:21] "POST /auth/login HTTP/1.1" 200 -
+2025-01-21 16:53:50,298 - INFO - Endpoint: /validate, Method: GET, Payload: <Request 'http://127.0.0.1:5000/auth/validate' [GET]>, Status: 401
+2025-01-21 16:53:50,298 - ERROR - Error: name 'SECRET_KEY' is not defined
+2025-01-21 16:53:50,299 - INFO - 127.0.0.1 - - [21/Jan/2025 16:53:50] "[35m[1mGET /auth/validate HTTP/1.1[0m" 500 -
+2025-01-21 16:55:30,055 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\routes\\auth.py', reloading
+2025-01-21 16:55:30,438 - INFO -  * Restarting with stat
+2025-01-21 16:55:31,518 - WARNING -  * Debugger is active!
+2025-01-21 16:55:31,523 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:56:49,846 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\routes\\auth.py', reloading
+2025-01-21 16:56:49,973 - INFO -  * Restarting with stat
+2025-01-21 16:56:51,257 - WARNING -  * Debugger is active!
+2025-01-21 16:56:51,265 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:57:33,770 - INFO - 127.0.0.1 - - [21/Jan/2025 16:57:33] "GET /auth/validate HTTP/1.1" 200 -
+2025-01-21 16:59:09,730 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-21 16:59:09,731 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-21 16:59:09,735 - INFO -  * Restarting with stat
+2025-01-21 16:59:11,161 - WARNING -  * Debugger is active!
+2025-01-21 16:59:11,169 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 16:59:16,185 - ERROR - Error: log_request() missing 1 required positional argument: 'status'
+2025-01-21 16:59:16,186 - INFO - 127.0.0.1 - - [21/Jan/2025 16:59:16] "[35m[1mGET /auth/validate HTTP/1.1[0m" 500 -
+2025-01-21 17:06:02,304 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\routes\\auth.py', reloading
+2025-01-21 17:06:02,416 - INFO -  * Restarting with stat
+2025-01-21 17:06:03,839 - WARNING -  * Debugger is active!
+2025-01-21 17:06:03,847 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 17:06:11,090 - INFO - Endpoint: /validate, Method: GET, Payload: {'username': 'bhima', 'password': 'password123'}, Status: 401
+2025-01-21 17:06:11,092 - INFO - 127.0.0.1 - - [21/Jan/2025 17:06:11] "GET /auth/validate HTTP/1.1" 200 -
+2025-01-21 17:07:03,690 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\routes\\auth.py', reloading
+2025-01-21 17:07:03,768 - INFO -  * Restarting with stat
+2025-01-21 17:07:04,920 - WARNING -  * Debugger is active!
+2025-01-21 17:07:04,929 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 17:07:11,771 - INFO -  * Detected change in 'C:\\Users\\Administrator\\Desktop\\newPrj\\pythonia\\day09\\auth_system_v03\\routes\\auth.py', reloading
+2025-01-21 17:07:12,007 - INFO -  * Restarting with stat
+2025-01-21 17:07:12,901 - WARNING -  * Debugger is active!
+2025-01-21 17:07:12,905 - INFO -  * Debugger PIN: 137-286-998
+2025-01-21 17:07:18,175 - INFO - Endpoint: /validate, Method: GET, Payload: {'username': 'bhima', 'password': 'password123'}, Status: 200
+2025-01-21 17:07:18,177 - INFO - 127.0.0.1 - - [21/Jan/2025 17:07:18] "GET /auth/validate HTTP/1.1" 200 -
+2025-01-21 17:07:28,209 - INFO - Endpoint: /validate, Method: GET, Payload: {'username': 'bhima', 'password': 'password123'}, Status: 200
+2025-01-21 17:07:28,210 - INFO - 127.0.0.1 - - [21/Jan/2025 17:07:28] "[31m[1mGET /auth/validate HTTP/1.1[0m" 401 -
+2025-01-21 17:07:39,243 - INFO - Endpoint: /validate, Method: GET, Payload: {'username': 'bhima', 'password': 'password123'}, Status: 200
+2025-01-21 17:07:39,244 - INFO - 127.0.0.1 - - [21/Jan/2025 17:07:39] "GET /auth/validate HTTP/1.1" 200 -
